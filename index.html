@@ -23,9 +23,9 @@
 
 <body>
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">
-            <img alt="ブランド" src="./Images/Logo/BelieversLogo.jpg" width="150" height="50">
+            <img alt="ブランド" src="./Images/Logo/SaruIcon.png" width="60" height="60">
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navber" aria-controls="Navber" aria-expanded="false"
             aria-label="ナビゲーションの切替">
@@ -47,18 +47,13 @@
                     <a class="nav-link" href="access.html">Access</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input type="search" class="form-control mr-sm-2" placeholder="検索..." aria-label="検索...">
-                <button type="submit" class="btn btn-outline-success my-2 my-sm-0">検索</button>
-            </form>
         </div>
     </nav>
     <!-- Header end -->
 
-    <div class="container">
+    <div class="container-fluid bg-gray">
         <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
+            <div class="col-md-10 offset-md-1 col-lg-10 offset-lg-1">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -73,12 +68,12 @@
                         </div>
                         <div class="carousel-item">
                             <a href="#">
-                                <img class="d-block img-fluid" src="Images/Photo/Shop.jpg" width="100%" alt="Second slide">
+                                <img class="d-block img-fluid" src="Images/Photo/RentalHeaderTest.png" width="100%" alt="Second slide">
                             </a>
                         </div>
                         <div class="carousel-item">
                             <a href="#">
-                                <img class="d-block img-fluid" src="Images/Photo/Shop.jpg" width="100%" alt="Third slide">
+                                <img class="d-block img-fluid" src="Images/Photo/Luke.png" width="100%" alt="Third slide">
                             </a>
                         </div>
                     </div>
@@ -94,7 +89,31 @@
             </div>
         </div>
     </div>
+    <div class="container-fluid marketing">
+        <div class="row">
+            <div class="col-lg-4 col-md-4">
+                <img class="rounded-circle bg-orange" src="./Images/Logo/B.png" width="200"
+                    height="200">
+                <h2>いろいろ</h2>
+                <p>新車販売、中古車販売・買い取り、整備、車検、オイル交換等の車に関することなんでも承ります。</p>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <img class="rounded-circle bg-orange" src="./Images/Logo/D.png" width="200"
+                    height="200">
+                <h2>板金・塗装</h2>
+                <p>お車のキズ(傷)・へこみの修理、車 修理、車のキズ直し、板金、塗装修理、カーメンテナンス</p>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <img class="rounded-circle bg-orange" src="./Images/Logo/R.png" width="200"
+                    height="200">
+                <h2>レンタカー</h2>
+                <p>軽トラを１時間500円で貸出しております。</p>
+            </div>
+        </div>
+    </div>
     <!-- /.carousel -->
+
+    <hr class="partition">
 </body>
 
 </html>

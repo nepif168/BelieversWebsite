@@ -1,3 +1,39 @@
 body{
-    background-color: coral;
+    background-color: white;/* #ea5513;*/
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bg-gray{
+    background-color: #5a5a5a;
+}
+
+.bg-orange{
+    background-color: #1DA1F2;
+}
+
+.marketing{
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.marketing h2{
+    padding-top: 10px;
+}
+.marketing p{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.partition{
+    margin: 50px;
 }
