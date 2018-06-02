@@ -23,17 +23,26 @@
 
 <body>
     <!-- Header -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="offset-md-1 col-md-3">
+                <h3>ビリーバーズ</h3>
+            </div>
+            <div class="offset-md-4 col-md-3">
+                <h3>0565-88-7003</h3>
+            </div>
+        </div>
+    </div>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
-            <img alt="ブランド" src="./Images/Logo/SaruIcon.png" width="60" height="60">
-        </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navber" aria-controls="Navber" aria-expanded="false"
             aria-label="ナビゲーションの切替">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="Navber">
-            <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse justify-content-center" id="Navber">
+            <ul class="navbar-nav mr-active">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
@@ -51,9 +60,10 @@
     </nav>
     <!-- Header end -->
 
+    <!-- Carouse -->
     <div class="container-fluid bg-gray">
         <div class="row">
-            <div class="col-md-10 offset-md-1 col-lg-10 offset-lg-1">
+            <div class="col-md-7 offset-md-1 col-lg-7 offset-lg-1">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -87,8 +97,13 @@
                     </a>
                 </div>
             </div>
+            <div class="col-md-2 col-lg-2 offset-md-1 offset-lg-1 bg-white">
+                広告
+            </div>
         </div>
     </div>
+    <!-- Carousel end -->
+
     <div class="container-fluid marketing">
         <div class="row">
             <div class="col-lg-4 col-md-4">
